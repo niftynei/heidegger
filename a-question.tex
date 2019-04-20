@@ -1,14 +1,67 @@
-\documentclass[12pt]{article}
+\documentclass[paper=a4, fontsize=11pt,twoside]{scrartcl}
 
-\title{The Question Concerning Technology}
-\author{Martin Heidegger \thanks{William Lovitt}}
+\newcommand{\HRule}[1]{\rule{\linewidth}{#1}} 	% Horizontal rule
+\setlength{\oddsidemargin}{5mm}			% Remove 'twosided' indentation
+\setlength{\evensidemargin}{5mm}
+
+\makeatletter							% Title
+\def\printtitle{%
+    {\centering \@title\par}}
+\makeatother
+
+\makeatletter							% Author
+\def\printauthor{%
+    {\centering \large \@author}}
+\makeatother
+
+\title{	\normalsize \textsc{Martin Heidegger's} 
+		 	\\[.5cm]								% 2cm spacing
+			\HRule{0.5pt} \\						% Upper rule
+			\LARGE \textbf{\uppercase{Question Concerning Technology}}	% Title
+			\HRule{2pt} \\ [0.5cm]		% Lower rule + 0.5cm spacing
+		}
+
+\author{
+		Original translation by: William Lovitt\\	
+		As interpreted by: niftynei\\	
+}
+
 \date{April 2019}
 \raggedright
 \setlength\parindent{2em}
 \begin{document}
 
-\maketitle
+\thispagestyle{empty}		% Remove page numbering on this page
 
+\printtitle					% Print the title data as defined above
+  	\vfill
+\printauthor				% Print the author data as defined above
+\newpage
+% ------------------------------------------------------------------------------
+% Begin document
+% ------------------------------------------------------------------------------
+\setcounter{page}{1}		% Set page numbering to begin on this page
+\section*{Interpreter's Note}
+
+\vspace{3.0cm}
+This essay called me, in the missionary sense, to spend more time with it. Although a bit dated, it still says something important about the values of a culture, especially one in which \textit{technology} has come to be a defining feature thereof.
+
+Heidegger is known to be difficult to translate, both for the taxing demands that he places on language and for the complexity of thought that he exacts out of it.  I've come to believe that Lovitt came to this piece as a translator first, and a philosopher second. To that end, he rendered a perfectly adequate and, I believe, faithful translation. However, as is often the case with a good number of ``faithful" translations, this faithfulness renders the meaning of the work obscured behind a fa\c{c}ade of correctness.
+
+This essay deserves a wider audience than such a faithful rendering can provide. To that end, I've attempted a clarifying pass, or a translator's translation, such that the meaning and ultimate message of Heidegger might be just that more easily consumed.
+
+Failing that, I hope that my attention to this work might bring its existence and message to a wider audience through mere repetition.
+
+Yet failing that, I'm grateful for the time the task of ``translating the translation" has given me with this insightful essay.
+
+\begin{flushright}
+-- niftynei\\
+\end{flushright}
+
+\vfill
+\section*{The Question Concerning Technology}
+
+\vspace{5.0cm}
 In what follows we shall be \textit{questioning} concerning technology. Questioning builds a way. We would be advised, therefore, above all to pay heed to the way, and not to fix our attention on isolated sentences and topics. The way is a way of thinking. All ways of thinking (ahaha), more or less perceptibly, lead through language in a manner that is extraoridnary. We shall be questioning concerning \textit{technology}, and in doing so we should like to prepare a free relationship to it. The relationship will be free if it opens our human existence to the essence of technology. When we can respond to this essence, we shall be able to experience the technological within its own bounds.
 
 Technology is not equivalent to the essence of technology. When we are seeking the essence of ``tree", we have to become aware that That which pervades every tree, as tree, is not itself a tree that can be encountered among all the other trees.
@@ -124,11 +177,11 @@ All manifestation, not only modern technology, keeps itself concealed to the las
 
 Chronologically speaking, modern physical science begins in the seventeenth century. In contrast, machine-powered technology developed only in the second half of the eighteenth century. But modern technology, which by chronological reckoning is later, is, from the point of view of the essence governing it, historically earlier.
 
-If modern physics must increasingly resign itself to the fact that its domain of representation remains inscrutable and incapable of visualization, it is a resignation not dictated by any committee of researchers. It is exacted out by the rule of Enframing, that demands nature be orderable as standing-reserve. Hence physics, in all its retreating from the object oriented representation that has been the sole standard until recently, will never be able to renounce this: that nature reports itself in a manner that is identifiable by calculation and that it remains orderable as a system of information. This system is determined, then, out of a causality that has shifted once again. Causality now displays neither the character of the delivering event nor the nature of the \textit{causa efficiens}, let alone that of the \textit{causa formalis}. It seems as though causality is shrinking into a reporting -- a reporting exacted out -- of standing-reserves that must be guaranteed either simultaneously or in sequence.  This shrinking causality corresponds to the case of growing resignation that Heisenberg's lecture so impressively depicts.
-
-*W. Heisenberg, ``Das Naturbild in der heutigen Physik," in \textit{Die K{\"u}nste im technischen Zeitaler} (Munich, 1954), pp. 43 ff.
+If modern physics must increasingly resign itself to the fact that its domain of representation remains inscrutable and incapable of visualization, it is a resignation not dictated by any committee of researchers. It is exacted out by the rule of Enframing, that demands nature be orderable as standing-reserve. Hence physics, in all its retreating from the object oriented representation that has been the sole standard until recently, will never be able to renounce this: that nature reports itself in a manner that is identifiable by calculation and that it remains orderable as a system of information. This system is determined, then, out of a causality that has shifted once again. Causality now displays neither the character of the delivering event nor the nature of the \textit{causa efficiens}, let alone that of the \textit{causa formalis}. It seems as though causality is shrinking into a reporting -- a reporting exacted out -- of standing-reserves that must be guaranteed either simultaneously or in sequence.  This shrinking causality corresponds to the case of growing resignation that Heisenberg's lecture so impressively depicts.\footnote[1]{W. Heisenberg, ``Das Naturbild in der heutigen Physik," in \textit{Die K{\"u}nste im technischen Zeitaler} (Munich, 1954), pp. 43 ff.}
 
 Because the essence of modern technology lies in Enframing, modern technology must make use of exact physical science. Through its so doing, the deception arises that modern technology \textit{is} applied physical science. This illusion maintains itself only so long as neither the essential origin of modern science nor indeed the essence of modern technology is adequately discovered through questioning.
+
+\vspace{10mm}
 
 We are questioning concerning technology in order to uncover our relationship to technology's essence. It shows itself in what we call Enframing. But to simply point this out still is in no way an answer to the question concerning technology, if to answer means to respond, in the sense of correspond, to the essence of what is being asked about.
 
@@ -158,9 +211,7 @@ Similarly, unconcealment--in which nature likewise presents itself as a calculab
 
 The destination-ing of revelation is not just \textit{any} danger, but a danger itself.
 
-When destination-ing prevails as Enframing, it is the absolute danger. This danger reveals itself to us in two ways. As soon as what is unconcealed no longer even involves man as `object', but does so instead exclusively as standing-reserve, and man, in the midst of objectlessness, becomes nothing but the orderer of standing-reserves, then he finds himself at the brink of a dizzying fall; that is, he has arrived at the point where he himself will be taken as standing-reserve. Meanwhile man, so threatened, glorifies himself as lord of the earth. Thus the prevailing impression becomes that everything man encounters exists only so far as it is his construct. This illusion breeds one final delusion: It appears that man only ever encounters himself. Heisenberg correctly observed that the real presents itself to modern man this way.* \textit{In truth, however, man today no longer encounters himself, i.e., his essence, anywhere}. Man stands so decisively near the exacting-forth process of Enframing that he does not understand Enframing as a claim; he fails to see himself as the one spoken to, and thus nevertheless fails to hear in what respect he ek-sists, of his essence, as an entreaty or address, and so \textit{never} encounters himself alone.
-
-*``Das Naturbild," pp. 60 ff.
+When destination-ing prevails as Enframing, it is the absolute danger. This danger reveals itself to us in two ways. As soon as what is unconcealed no longer even involves man as `object', but does so instead exclusively as standing-reserve, and man, in the midst of objectlessness, becomes nothing but the orderer of standing-reserves, then he finds himself at the brink of a dizzying fall; that is, he has arrived at the point where he himself will be taken as standing-reserve. Meanwhile man, so threatened, glorifies himself as lord of the earth. Thus the prevailing impression becomes that everything man encounters exists only so far as it is his construct. This illusion breeds one final delusion: It appears that man only ever encounters himself. Heisenberg correctly observed that the real presents itself to modern man this way.\footnote[2]{``Das naturbild," pp. 60 ff.} \textit{In truth, however, man today no longer encounters himself, i.e., his essence, anywhere}. Man stands so decisively near the exacting-forth process of Enframing that he does not understand Enframing as a claim; he fails to see himself as the one spoken to, and thus nevertheless fails to hear in what respect he ek-sists, of his essence, as an entreaty or address, and so \textit{never} encounters himself alone.
 
 But Enframing does not just threaten man in his relationship to himself and everything that is. As a destination-ing, it banishes man to a mode of revelation that orders. Where this ordering governs, it excludes every other possible revelation. Above all, Enframing conceals revelation which, in the sense of \textit{p{\-o}esis}, permits what manifests to appear. Compared with the other mode of revelation, the `settling-upon that exacts out' thrusts man into a liaison to what is, a relation that is at once contradictory and rigorously ordered. Where Enframing reigns, overseeing and acquiring the standing-reserve characterize all revelation. They don't even permit their own fundamental characteristic to appear, namely, the revelation itself.
 
@@ -172,8 +223,15 @@ The threat to man does not come initially from the potentially lethal machines a
 
 Thus, where Enframing reigns, there is \textit{danger} in the supreme sense.
 
-> \textit{But where danger is, grows}
-> \textit{The saving virtue also}
+\vspace{5mm}
+
+\begin{center}
+\textit{But where danger is, grows}
+
+\textit{The saving virtue also,}
+\end{center}
+
+\vspace{5mm}
 
 Let us think carefully about these words of H{\"o}lderlin. What does it mean ``to save"? Usually we think that it just means to grasp a thing threatened by ruin, so as to maintain it in its former state. But the verb ``to save" says more. ``To save" is to bring something home into its essence, in order to bring about the genuine appearnce of its essence for the first time. If the essence of technology, Enframing, is extreme danger, and if there is no truth in H{\"o}lderlin's words, then the reign of Enframing cannot expend itself solely in shading the en-`light'-enment of every potential revelation, all appearances of truth. Rather, technology's essence must harbor in itself the rise of the saving virtue. But in that case, might not an adequate look into what Enframing is, as a destination-ing of revelation, bring into focus the saving virtue within its arising? 
 
@@ -191,9 +249,7 @@ The Idea ``house" demonstrates what it is that is intended as a house. Individua
 
 But it can not be established that endurance is based only on what Plato considered \textit{idea} and Aristotle considered \textit{to ti {\-e}n einai} (that which any thing has always been), or what metaphysics' varied interpretations considers \textit{essentia}.
 
-All essencing endures. But is all endurance permanent? Does the essence of technology endure in the sense of a permanently enduring Idea that hovers over all things technological, making it such that by `technology' we mean some mythological abstraction? The way technology essences reveals itself only in that permanent enduring in which Enframing comes to pass as a destination-ing of revealation. Goethe once used the mysterious word \textit{fortgew{\"a}hren} [to grant permanently] in place of \textit{fortw{\"a}hren} [to endure permanently].* We hear \textit{w{\"a}hren} [to endure] and \textit{gew{\"a}hren} [to grant] here in one unarticulated accord. And if we now more carefully consider what it is that actually, and perhaps alone, endures, we may venture to say: \textit{Only what is granted endures. What originally endures out of the earliest beginning is what, in turn, grants}. 
-
-*``Die Wahlverwandtschaften" [Congeniality], pt II, chap. 10, in the novelette \textit{Die wunderlichen Nachbaskinder} [The strange neighbor's children].
+All essencing endures. But is all endurance permanent? Does the essence of technology endure in the sense of a permanently enduring Idea that hovers over all things technological, making it such that by `technology' we mean some mythological abstraction? The way technology essences reveals itself only in that permanent enduring in which Enframing comes to pass as a destination-ing of revealation. Goethe once used the mysterious word \textit{fortgew{\"a}hren} [to grant permanently] in place of \textit{fortw{\"a}hren} [to endure permanently].\footnote[3]{``Die Wahlverwandtschaften" [Congeniality], pt II, chap. 10, in the novelette \textit{Die wunderlichen Nachbaskinder} [The strange neighbor's children].} We hear \textit{w{\"a}hren} [to endure] and \textit{gew{\"a}hren} [to grant] here in one unarticulated accord. And if we now more carefully consider what it is that actually, and perhaps alone, endures, we may venture to say: \textit{Only what is granted endures. What originally endures out of the earliest beginning is what, in turn, grants}. 
 
 As the essence-ing of technology, Enframing is what endures. Does Enframing's governance extend into the sense of granting? No doubt the question appears a horrendous blunder. According to everything that has been said, Enframing is, rather, a destination-ing that brings into the revelation that exacts. Challenging is anything but a granting. So it seems, so long as we do not notice that the challenging-forth into the ordering of the real as standing-reserve still remains a destination-ing that puts man upon a path of revealing. As destination-ing, the manifestation of technology grants man entry into That which, of himself, he can neither invent nor make. There is no such thing as a man who, wholly of himself, is only man.
 
@@ -238,16 +294,24 @@ The arts were not derived from the artistic. Art works were not enjoyed aestheti
 What, then, was art--perhaps only for that brief but magnificent time? Why did art bear the modest name \textit{techn{\-e}}? Because it was a revelation that brought forth and hither, and therefore belonged within \textit{po{\-e}sis}. It was finally that revealing which holds complete sway in all the fine arts, in poetry, and in everything poetical that attained \textit{po{\-e}sis} as its proper name.
 
 The same poet from whom we heard the words
-
 \vspace{5mm}
+
+\begin{center}
 \textit{But where danger is, grows}
+
 \textit{The saving virtue also,}
+\end{center}
+
 \vspace{5mm}
 
 says to us:
 
 \vspace{5mm}
+
+\begin{center}
 \textit{...poetically dwells man upon this earth.}
+\end{center}
+
 \vspace{5mm}
 
 Poetic language delivers the true into the splendor of what Plato, in the \textit{Phaedrus}, calls \textit{ekphanestaton}, that that blazes forth most pure. The poetic thoroughly pervades every art, every revealing of the manifestation of beauty.
@@ -259,6 +323,8 @@ Whether art may be granted this highest responsibility of its essence in the mid
 Because the essence of technology is nothing technological, essential reflection upon technology and decisive confrontation with it must happen in a realm that is, on the one hand, akin to the essence of technology and, on the other, fundamentally different from it.
 
 Such a realm is art. But only if reflection on art, for its part, does not close its eyes to the constellation of truth after which we are \textit{questioning}.
+
+\vspace{5mm}
 
 Thus questioning, we bear witness to the crisis that in our sheer preoccupation with technology we do not experience the manifestation of technology, that in our sheer aesthetic-mindedness we no longer protect and preserve the manifestation of art. Yet the more questioningly we ponder the essence of technology, the more mysterious the essence of art becomes.
 
